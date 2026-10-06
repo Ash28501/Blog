@@ -1,4 +1,3 @@
-fastapi/
+fastapi-venv/
 __pycache__/
 .env
-gi

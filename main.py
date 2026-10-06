@@ -9,7 +9,7 @@ class Blog(BaseModel):
     body: str 
     published: Optional[bool] 
 
-@app.post('/blog')
+@app.post('/blog') # red dot then cmd+sht+p then  debug restart then select the application type means langauge or framework. 
 def create_blog(blog: Blog):  # or also can write request: Blog  
     
     return {'data' : f'Blog is created with title as {blog.title}'}
